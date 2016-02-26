@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+glava, noga {
+    margin: 20px;
+}
+
+telo {
+    flex: auto;
+   	margin: 10px;
+	width: calc(100% - 50px);
+	overflow: auto;
+	padding: 10px;
+}
+
+.opomnik {
+	margin: 0px; 
+	margin-bottom: 5px;
+	position: relative; 
+	height: 20px; 
+	width: calc(100% - 20px); 
+	float: left; 
+	padding: 10px;
+}
+
+.rob {
+	border: 1px solid transparent; 
+	border-color: #C30C21; 
+	border-radius: 4px; 
+}
+
+.senca {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.naziv_opomnika {
+	position: relative; 
+	float: left;
+}
+
+.cas_opomnika {
+	position: relative; 
+	float: right;
+}
+
+.pokrivalo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#uporabniskiObrazec {
+	background-color: #fff;
+	padding: 30px;
+}
