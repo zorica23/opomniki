@@ -18,3 +18,9 @@ window.addEventListener('load', function() {
 	setInterval(posodobiOpomnike, 1000);
 	
 });
+
+	var myFunction = function() {
+		var ime= document.getElementById("uporabnisko_ime").value;
+		document.getElementById("uporabnik").innerHTML=ime;
+		document.getElementsByClassName("pokrivalo")[0].style.visibility='hidden';
+	}
